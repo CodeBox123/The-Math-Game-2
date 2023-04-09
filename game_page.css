@@ -1,0 +1,64 @@
+
+body{
+    background-image: url("bgimg.jpg");
+}
+
+#player1_name , #player2_name
+{
+    color:aliceblue;
+    margin-left: 20px;
+	margin-left: 20px;
+	font-family: 'Fuzzy Bubbles', cursive;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #4b44aa;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#number1{
+	width: 100px;
+	float: left;
+	margin-left: 450px;
+}
+
+#number2{
+	width: 100px;
+	float: left;
+}
+
+
+#oporation{
+	width: 30px;
+	float: left;
+}
+
+#btn{
+	float: left;
+	border-radius: 200px;
+}
+
+#questionturn, #answerturn{
+	color:#4b44aa;
+}
+
+#note{
+	color: rgb(183, 185, 255);
+}
+
+#score1, #score2, #player1name, #player2name{
+	color: rgb(183, 185, 255);
+	margin-left: 20px;
+}

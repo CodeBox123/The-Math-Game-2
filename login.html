@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Word</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Fuzzy+Bubbles:wght@700&family=Titan+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="login.css">
+
+
+</head>
+<body>
+	<nav class="my_nav navbar-inverse" >
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+		  </button>
+		  <a href="#" id="brand" class="navbar-brand">The Math Game</a>
+		</div>  
+	
+		<div class="collapse navbar-collapse" id="my_navbar">
+		  <ul class="navbar-nav nav">
+			<li><a href="sucker.html">How to play</a></li>
+			<li><a href="sucker.html">Login</a></li>
+			<li><a href="sucker.html">Play</a></li>
+		</ul>
+		</div>
+	  </nav>
+
+
+
+<center>
+	<br><br><br><br>
+<h1>Login</h1>
+
+<h5 id="signup">Don't have an account? Sign up <a href="sucker.html">here</a></h5>
+
+<div class="divlogin col-lg-4 col-md-8 col-sm-12">
+<h3>Player 1</h3>
+<input id="player1" class="form-control" type="text">
+</div>
+
+<br>
+
+<div class="divlogin col-lg-4 col-md-8 col-sm-12">
+	<h3>Player 2</h3>
+	<input id="player2" class="form-control" type="text">
+	</div>	
+
+<br>
+
+<button onclick="Load()">PLay!</button>
+
+</center><script src="login.js"></script>
+</body>
+</html>
